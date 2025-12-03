@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take Action - MindConnect</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            padding: 60px 5%;
+            background: white;
+        }
+        
+        .contact-card {
+            padding: 2rem;
+            background: #F8F9FA;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .contact-card .icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .contact-card h3 {
+            color: #4A90E2;
+            margin-bottom: 1rem;
+        }
+        
+        .contact-card ul {
+            text-align: left;
+            list-style: none;
+            padding: 0;
+            margin: 1rem 0;
+        }
+        
+        .contact-card li:before {
+            content: "→ ";
+            color: #4A90E2;
+        }
+        
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 10px;
+        }
+        
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+        
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 0.8rem;
+            border: 2px solid #e0e0e0;
+            border-radius: 5px;
+            font-family: inherit;
+        }
+        
+        .form-group textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+        
+        .submit-btn {
+            width: 100%;
+            padding: 1rem;
+            background: #4A90E2;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        
+        .submit-btn:hover {
+            background: #357abd;
+        }
+        
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+            padding: 60px 5%;
+        }
+        
+        .team-member {
+            text-align: center;
+            padding: 1.5rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .team-member .avatar {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .team-member h4 {
+            color: #4A90E2;
+            margin-bottom: 0.5rem;
+        }
+        
+        .team-member .role {
+            color: #7F8C8D;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .team-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+    <div class="logo">🧠 MindConnect</div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">The Problem</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="demo.html">Demo</a></li>
+        <li><a href="impact.html">Impact</a></li>
+        <li><a href="contact.html">Take Action</a></li>
+        <li><a href="references.html">References</a></li>
+    </ul>
+</nav>
+
+    <section class="hero">
+        <h1>Let's Make This Happen</h1>
+        <p>Join us in transforming mental health support for Ontario students</p>
+    </section>
+
+    <section class="problem-overview">
+        <h2>How You Can Get Involved</h2>
+        <p class="section-subtitle">Choose your role and take the first step</p>
+    </section>
+
+    <div class="contact-grid">
+        <div class="contact-card">
+            <div class="icon">👩‍🎓</div>
+            <h3>Are You a Student?</h3>
+            <p>Your voice matters. Help us understand what students need.</p>
+            <ul>
+                <li>Share your experiences</li>
+                <li>Participate in user testing</li>
+                <li>Spread awareness</li>
+                <li>Join our advisory board</li>
+            </ul>
+        </div>
+
+        <div class="contact-card">
+            <div class="icon">🏫</div>
+            <h3>University Administrator?</h3>
+            <p>Partner with us to pilot MindConnect at your institution.</p>
+            <ul>
+                <li>Join pilot program</li>
+                <li>Schedule a demo</li>
+                <li>Connect with counseling services</li>
+                <li>Advocate for funding</li>
+            </ul>
+        </div>
+
+        <div class="contact-card">
+            <div class="icon">🏛️</div>
+            <h3>Government Representative?</h3>
+            <p>Learn how MindConnect maximizes your $32M investment.</p>
+            <ul>
+                <li>Request presentation</li>
+                <li>Review ROI analysis</li>
+                <li>Discuss funding</li>
+                <li>Explore policy implications</li>
+            </ul>
+        </div>
+
+        <div class="contact-card">
+            <div class="icon">👨‍⚕️</div>
+            <h3>Mental Health Professional?</h3>
+            <p>Share your expertise to shape the platform.</p>
+            <ul>
+                <li>Join advisory board</li>
+                <li>Provide clinical input</li>
+                <li>Test the platform</li>
+                <li>Contribute resources</li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="problem-overview">
+        <h2>Get in Touch</h2>
+        <p class="section-subtitle">Fill out the form below and we'll respond within 48 hours</p>
+        
+        <div class="contact-form">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="role">I am a... *</label>
+                    <select id="role" name="role" required>
+                        <option value="">-- Please Select --</option>
+                        <option value="student">Student</option>
+                        <option value="university">University Administrator</option>
+                        <option value="government">Government Representative</option>
+                        <option value="professional">Mental Health Professional</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Your Message *</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="problem-overview" style="background: white;">
+        <h2>Meet the Team</h2>
+        <p class="section-subtitle">The students behind MindConnect</p>
+        
+        <div class="team-grid">
+            <div class="team-member">
+                <div class="avatar">👩</div>
+                <h4>Sandy Weng</h4>
+                <p class="role">Research Lead</p>
+            </div>
+            
+            <div class="team-member">
+                <div class="avatar">👩</div>
+                <h4>Olivia Chen</h4>
+                <p class="role">Design & Features Lead</p>
+            </div>
+            
+            <div class="team-member">
+                <div class="avatar">👩</div>
+                <h4>Tracy Liu</h4>
+                <p class="role">Content Architect</p>
+            </div>
+            
+            <div class="team-member">
+                <div class="avatar">👩</div>
+                <h4>Anastasiia Rodionova</h4>
+                <p class="role">Quality & Impact Lead</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="problem-overview">
+        <div class="common-ground">
+            <h3>🌟 Every Journey Begins With a Single Step</h3>
+            <p>Right now, thousands of Ontario students are struggling to access mental health support. You have the power to change that.</p>
+            <p style="margin-top: 1rem; font-weight: bold;">Together, we can create a future where no Ontario student struggles to find mental health support.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>MindConnect</h3>
+                <p>Bridging the gap between students and mental health support</p>
+            </div>
+            <div class="footer-section">
+                <h3>Project Team</h3>
+                <ul>
+                    <li>Sandy Weng - Research Lead</li>
+                    <li>Olivia Chen - Design & Features</li>
+                    <li>Tracy Liu - Content Architect</li>
+                    <li>Anastasiia Rodionova - Quality & Impact</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Emergency Support</h3>
+                <ul>
+                    <li><strong>Good2Talk:</strong> 1-866-925-5454</li>
+                    <li><strong>Crisis Text:</strong> Text CONNECT to 686868</li>
+                    <li><strong>Emergency:</strong> 911</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 MindConnect | A Collaborative Research Project by Group 3</p>
+            <p style="margin-top: 0.5rem; font-size: 0.9rem;">This is a student research project. MindConnect is a proposed solution.</p>
+        </div>
+    </footer>
+</body>
+</html>

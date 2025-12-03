@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo - MindConnect</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Додатковий CSS для demo сторінки */
+        .demo-section {
+            padding: 60px 5%;
+            background: #F8F9FA;
+        }
+        
+        .demo-intro {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .demo-intro h2 {
+            font-size: 2.5rem;
+            color: #2C3E50;
+            margin-bottom: 1rem;
+        }
+        
+        .phone-mockup {
+            max-width: 400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 30px;
+            padding: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        
+        .phone-screen {
+            background: #F8F9FA;
+            border-radius: 20px;
+            padding: 2rem;
+            min-height: 500px;
+        }
+        
+        .screen-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .screen-header h3 {
+            color: #4A90E2;
+            margin-bottom: 0.5rem;
+        }
+        
+        .menu-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .menu-item {
+            padding: 1.5rem;
+            background: white;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .menu-item .icon {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .menu-item h4 {
+            color: #2C3E50;
+            font-size: 1rem;
+        }
+        
+        .feature-demo {
+            padding: 60px 5%;
+            background: white;
+        }
+        
+        .feature-demo h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+        }
+        
+        .demo-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .demo-card {
+            padding: 2rem;
+            background: #F8F9FA;
+            border-radius: 10px;
+        }
+        
+        .demo-card h3 {
+            color: #4A90E2;
+            margin-bottom: 1rem;
+        }
+        
+        .demo-card ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .demo-card li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .demo-card li:before {
+            content: "✓ ";
+            color: #50C878;
+            font-weight: bold;
+        }
+        
+        @media (max-width: 768px) {
+            .demo-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .menu-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+    <div class="logo">🧠 MindConnect</div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">The Problem</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="demo.html">Demo</a></li>
+        <li><a href="impact.html">Impact</a></li>
+        <li><a href="contact.html">Take Action</a></li>
+        <li><a href="references.html">References</a></li>
+    </ul>
+    </nav>
+
+    <section class="hero">
+        <h1>Experience MindConnect</h1>
+        <p>See how students access mental health support</p>
+    </section>
+
+    <section class="demo-section">
+        <div class="demo-intro">
+            <h2>📱 Platform Preview</h2>
+            <p>This is how MindConnect would look on a student's phone</p>
+        </div>
+        
+        <div class="phone-mockup">
+            <div class="phone-screen">
+                <div class="screen-header">
+                    <h3>Welcome to MindConnect</h3>
+                    <p>How are you feeling today?</p>
+                </div>
+                
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="icon">🚨</div>
+                        <h4>Crisis Support</h4>
+                    </div>
+                    <div class="menu-item">
+                        <div class="icon">📅</div>
+                        <h4>Book Counseling</h4>
+                    </div>
+                    <div class="menu-item">
+                        <div class="icon">📚</div>
+                        <h4>Resources</h4>
+                    </div>
+                    <div class="menu-item">
+                        <div class="icon">💬</div>
+                        <h4>Community</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feature-demo">
+        <h2>Key Features Demonstrated</h2>
+        
+        <div class="demo-grid">
+            <div class="demo-card">
+                <h3>🚨 Crisis Support</h3>
+                <p>Instant access to emergency resources:</p>
+                <ul>
+                    <li>Good2Talk: 1-866-925-5454</li>
+                    <li>Crisis Text Line</li>
+                    <li>Campus Security</li>
+                    <li>911 Emergency</li>
+                </ul>
+            </div>
+            
+            <div class="demo-card">
+                <h3>📅 Smart Booking</h3>
+                <p>Students can:</p>
+                <ul>
+                    <li>See real-time counselor availability</li>
+                    <li>Book appointments 24/7</li>
+                    <li>Filter by specialty</li>
+                    <li>Receive automatic reminders</li>
+                </ul>
+            </div>
+            
+            <div class="demo-card">
+                <h3>📚 Resource Library</h3>
+                <p>24/7 access to:</p>
+                <ul>
+                    <li>Anxiety management guides</li>
+                    <li>Depression support resources</li>
+                    <li>Stress relief exercises</li>
+                    <li>Academic coping strategies</li>
+                </ul>
+            </div>
+            
+            <div class="demo-card">
+                <h3>💬 Peer Support</h3>
+                <p>Anonymous chat rooms for:</p>
+                <ul>
+                    <li>Exam stress support</li>
+                    <li>First-year students</li>
+                    <li>International students</li>
+                    <li>Mental health warriors</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="problem-overview">
+        <h2>Why This Design Works</h2>
+        <div class="two-columns">
+            <div class="column">
+                <h3>⚡ Instant Access</h3>
+                <p>Students can find help in 2 clicks or less. No confusing menus or hidden features.</p>
+            </div>
+            <div class="column">
+                <h3>🎨 Calming Design</h3>
+                <p>Soft colors and clean layout reduce anxiety. The interface itself is therapeutic.</p>
+            </div>
+        </div>
+        <div class="common-ground">
+            <h3>Ready to Learn More?</h3>
+            <p><a href="impact.html" style="color: white; text-decoration: underline;">See the impact MindConnect can have →</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>MindConnect</h3>
+                <p>Bridging the gap between students and mental health support</p>
+            </div>
+            <div class="footer-section">
+                <h3>Project Team</h3>
+                <ul>
+                    <li>Sandy Weng</li>
+                    <li>Olivia Chen</li>
+                    <li>Tracy Liu</li>
+                    <li>Anastasiia Rodionova</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Emergency Support</h3>
+                <ul>
+                    <li>Good2Talk: 1-866-925-5454</li>
+                    <li>Crisis Text: CONNECT to 686868</li>
+                    <li>Emergency: 911</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 MindConnect | Group 3</p>
+        </div>
+    </footer>
+</body>
+</html>
